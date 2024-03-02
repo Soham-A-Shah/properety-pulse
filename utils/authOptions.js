@@ -8,7 +8,7 @@ export const authOptions = {
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      redirectUri: "http://localhost:3000/api/auth/callback/google",
+      redirectUri: "https://property-pulse.thedynamicdeveloper.com/api/auth/callback/google",
       authorization: {
         params: {
           prompt: 'consent',
